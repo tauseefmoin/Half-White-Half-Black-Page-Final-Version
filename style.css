@@ -1,0 +1,41 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+.half-white {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: white;
+	position: relative;
+}
+.half-black {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: black;
+	position: relative;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: pointer;
+}
+#drop {
+	 width: 100px;
+	 position: absolute;
+  height: 100px;
+  top: 20%;
+	left: 80%;
+/*  padding: 10px;*/
+  border: 1px solid #aaaaaa;
+/*  transform: translate(-50%, -50%);*/
+  	cursor: pointer;
+}
